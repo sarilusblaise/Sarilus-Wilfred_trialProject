@@ -1,0 +1,25 @@
+#navbar{
+
+    background-color: hsl(205, 77%, 27%);
+    width:25%;
+    
+}
+
+ul a{
+    color:white;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+#main-doc{
+    width: 70%;
+}
