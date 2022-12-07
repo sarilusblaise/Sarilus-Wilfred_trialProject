@@ -23,8 +23,6 @@ ul li{
 #main-doc{
     width: 70%;
 }
-@media (30em <= width <= 50em) {
-    #navbar{
-        display: none;
-    }
+@media (min-width: 30em) and (orientation: landscape) {
+    
   }
