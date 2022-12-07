@@ -23,3 +23,8 @@ ul li{
 #main-doc{
     width: 70%;
 }
+@media (30em <= width <= 50em) {
+    #navbar{
+        display: none;
+    }
+  }
