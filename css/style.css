@@ -23,6 +23,18 @@ ul li{
 #main-doc{
     width: 70%;
 }
-@media (min-width: 30em) and (orientation: landscape) {
-    
-  }
+@media screen and (max-width: 800px) {
+.container{
+    flex-direction: column;
+    row-gap:30px;
+}
+
+#main-doc{
+    width:100%
+}
+
+#navbar{
+    width:100%
+}
+
+}
